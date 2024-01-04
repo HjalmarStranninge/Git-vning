@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GitÖvning
 {
+    // A cat.
     internal class Cat
     {
         public string Name { get; set; }
@@ -19,6 +20,11 @@ namespace GitÖvning
         public void MakeSound()
         {
             Console.WriteLine($"{Name} says meow!");
+        }
+
+        public void MakeAnotherSound()
+        {
+            Console.WriteLine($"{Name} says meeeeeeeeeow!");
         }
     }
 }
