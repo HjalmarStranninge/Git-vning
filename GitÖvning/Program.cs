@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+
+            var cat = new Cat("catman", "blak");
+            cat.MakeSound();
+            cat.MakeAnotherSound();
+
             Knight Garen = new Knight();
             Garen.Age = 30;
             Garen.Strength = 250;
@@ -12,6 +17,7 @@
 
             Garen.PrintInfo();
             Garen.BattleSound();
+
         }
     }
 }
